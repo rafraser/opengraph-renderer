@@ -1,6 +1,6 @@
 import argparse
-import parse
-import renderer
+import opengraph_renderer.parse as parse
+import opengraph_renderer.renderer as renderer
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -1,6 +1,6 @@
 from PIL import Image
-from renderer.basic import render as render_basic
-from parse import OpenGraphData
+from opengraph_renderer.renderer.basic import render as render_basic
+from opengraph_renderer.parse import OpenGraphData
 
 renderer_list = {
     "basic": render_basic,
